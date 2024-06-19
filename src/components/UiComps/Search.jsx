@@ -7,7 +7,7 @@ const Search = ({ setSearchModal }) => {
   return (
     <div className="fixed top-0 left-0 w-screen h-screen z-50 grid place-content-center bg-black bg-opacity-60">
       <OutsideClickHandler onOutsideClick={() => setSearchModal(false)}>
-        <div className="relative z-50 bg-white p-8 rounded-lg shadow-lg w-[90%] max-w-[600px]">
+        <div className="relative z-50 bg-white shadow-lg md:w-[600px] w-[370px] p-10 border-2 rounded-3xl">
           <button
             onClick={() => setSearchModal(false)}
             className="absolute top-4 right-4 text-secondary hover:text-primary transition-all"
@@ -21,7 +21,7 @@ const Search = ({ setSearchModal }) => {
             className="w-full border border-gray-300 p-3 rounded mb-6"
           />
           <ul>
-            <li className="flex items-center justify-between p-2 hover:bg-gray-100 transition-all rounded">
+            <li className="flex items-center justify-between p-2 hover:bg-primary transition-all rounded">
               <div className="relative w-16 h-16 mr-4">
                 <Image
                   src="/path/to/image.jpg"
