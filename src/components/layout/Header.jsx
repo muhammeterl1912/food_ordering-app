@@ -1,8 +1,13 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import { CiUser, CiShoppingCart, CiSearch } from "react-icons/ci";
 import Logo from "../UiComps/Logo";
+import Search from "../UiComps/Search";
 const Header = () => {
+
+  const [searchModal,setSearchModal]  =useState(false)
   return (
+
     <div className="h-[5.5rem] bg-secondary">
       <div className="container mx-auto flex justify-between items-center h-full text-white">
         <div>
@@ -26,19 +31,20 @@ const Header = () => {
         </nav>
         <div className="flex gap-x-4 items-center ">
           <a href="">
-            <CiUser />
+            <CiUser className="hover:text-primary transition-all" />
           </a>
           <a href="">
-            <CiShoppingCart />
+            <CiShoppingCart className="hover:text-primary transition-all"/>
           </a>
-          <a href="">
-            <CiSearch />
+          <a href="#">
+          <button onClick={()=>setSearchModal(true)}><CiSearch className="hover:text-primary transition-all"/></button>   
           </a>
           <a href="">
             <button className="btn-primary ">Order Online</button>
           </a>
         </div>
       </div>
+      {searchModal && <Search setSearchModal={setSearchModal}/>}
     </div>
   );
 };
