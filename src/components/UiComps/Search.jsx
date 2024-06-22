@@ -1,6 +1,7 @@
 import React from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 import Image from "next/image";
+import Burger from "../../../public/images/burger-sunum-yemekcom.jpg"
 import { FaRegWindowClose } from "react-icons/fa";
 
 const Search = ({ setSearchModal }) => {
@@ -24,8 +25,8 @@ const Search = ({ setSearchModal }) => {
             <li className="flex items-center justify-between p-2 hover:bg-primary transition-all rounded">
               <div className="relative w-16 h-16 mr-4">
                 <Image
-                  src="/path/to/image.jpg"
-                  alt="Pizza"
+                  src={Burger}
+                  alt="Burger" 
                   layout="fill"
                   className="object-cover rounded"
                 />

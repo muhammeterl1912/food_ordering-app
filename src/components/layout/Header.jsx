@@ -15,13 +15,13 @@ const Header = () => {
   };
 
   return (
-    <div className="h-[5.4rem] bg-secondary">
+    <div className="h-[5.4rem] bg-secondary relative z-50">
       <div className="container mx-auto flex justify-between items-center h-full text-white">
         <div>
           <Logo />
         </div>
         <nav
-          className={`sm:flex sm:static absolute top-0 left-0 grid place-content-center sm:w-auto sm:h-auto h-full w-full sm:text-white text-black ${
+          className={`sm:flex sm:static absolute top-0 left-0 grid place-content-center sm:w-auto sm:h-auto w-full h-screen sm:text-white text-black ${
             menuModal ? "block bg-white sm:bg-transparent" : "hidden"
           } sm:block`}
         >
