@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Campaigns from "@/components/Campaigns";
 import Carousel from "@/components/UiComps/Carousel";
 import MenuWrapper from "@/components/products/MenuWrapper";
@@ -9,6 +10,7 @@ export default function Home() {
     <Carousel/>
     <Campaigns/>
     <MenuWrapper/>
+    <About/>
     </main>
   );
 }
