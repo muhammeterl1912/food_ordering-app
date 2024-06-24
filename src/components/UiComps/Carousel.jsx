@@ -24,7 +24,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="h-screen w-full container mx-auto -mt-[86px] relative">
+    <div className="h-screen w-full container mx-auto -mt-[88px] relative">
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
           src="/images/burger-sunum-yemekcom.jpg"
