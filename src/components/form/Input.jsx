@@ -1,11 +1,14 @@
 import React from "react";
 
-const Input = ({ type, placeholder }) => {
+const Input = ({ type, placeholder, name, value, onChange }) => {
   return (
     <div className="w-full">
       <label className="relative block cursor-text w-full">
         <input
           type={type}
+          name={name}
+          value={value}
+          onChange={onChange}
           className={`h-14 w-full border border-primary outline-none px-4 peer ${
             type !== "datetime-local" && "pt-2"
           }`}
