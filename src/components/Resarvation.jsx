@@ -70,7 +70,7 @@ const Reservation = () => {
       touched: touched.date,
     },
   ];
-  console.log(values);
+
   return (
     <div className="container mx-auto py-12">
       <div className="text-[40px] mb-10">Book A Table</div>
