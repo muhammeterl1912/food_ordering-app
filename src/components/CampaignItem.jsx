@@ -14,7 +14,7 @@ const CampaignItem = () => {
         />
       </div>
       <div className="text-white">
-        <div addClass="text-2xl">Tasty Friday</div>
+        <div className="text-2xl">Tasty Friday</div>
         <div className="font-dancing my-1">
           <span className="text-[40px]">25%</span>
           <span className="text-sm inline-block ml-1">Off</span>
