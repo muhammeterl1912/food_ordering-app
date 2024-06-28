@@ -51,18 +51,18 @@ const Header = () => {
           )}
         </nav>
         <div className="flex gap-x-4 items-center">
-          <a href="">
+          <Link href="/login">
             <CiUser className="hover:text-primary transition" />
-          </a>
+          </Link>
           <a href="">
             <CiShoppingCart className="hover:text-primary transition" />
           </a>
           <button onClick={() => setSearchModal(true)}>
             <CiSearch className="hover:text-primary transition" />
           </button>
-          <a href="" className="hidden md:inline-block">
+          <Link href="" className="hidden md:inline-block">
             <button className="btn-primary">Order Online</button>
-          </a>
+          </Link>
           <button
             className="hover:text-primary transition text-xl sm:hidden inline-block"
             onClick={toggleMenuModal}
