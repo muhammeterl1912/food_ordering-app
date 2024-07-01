@@ -54,9 +54,9 @@ const Header = () => {
           <Link href="/login">
             <CiUser className="hover:text-primary transition" />
           </Link>
-          <a href="">
+          <Link href="/card">
             <CiShoppingCart className="hover:text-primary transition" />
-          </a>
+          </Link>
           <button onClick={() => setSearchModal(true)}>
             <CiSearch className="hover:text-primary transition" />
           </button>
