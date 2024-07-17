@@ -44,7 +44,7 @@ const Order = () => {
           <div className="relative flex flex-col">
             <Image
               src="/images/burger-sunum-yemekcom.jpg"
-              alt=""
+              alt="Payment"
               width={40}
               height={40}
               objectFit="contain"
@@ -54,7 +54,7 @@ const Order = () => {
           <div className="relative flex flex-col animate-pulse">
             <Image
               src="/images/burger-sunum-yemekcom.jpg"
-              alt=""
+              alt="Preparing"
               width={40}
               height={40}
               objectFit="contain"
@@ -64,7 +64,7 @@ const Order = () => {
           <div className="relative flex flex-col">
             <Image
               src="/images/burger-sunum-yemekcom.jpg"
-              alt=""
+              alt="On the Way"
               width={40}
               height={40}
               objectFit="contain"
@@ -74,7 +74,7 @@ const Order = () => {
           <div className="relative flex flex-col">
             <Image
               src="/images/burger-sunum-yemekcom.jpg"
-              alt=""
+              alt="Delivered Image"
               width={40}
               height={40}
               objectFit="contain"

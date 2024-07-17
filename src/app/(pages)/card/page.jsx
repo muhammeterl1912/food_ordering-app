@@ -38,7 +38,7 @@ const Card = () => {
                   <span>mayonez, spicy, sauce, ketchup</span>
                 </td>
                 <td className="py-4 px-6 font-medium whitespace-nowrap hover:text-white">
-                  $20
+                  $20e
                 </td>
                 <td className="py-4 px-6 font-medium whitespace-nowrap hover:text-white">
                   1
